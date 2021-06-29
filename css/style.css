@@ -42,9 +42,14 @@ li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    display: inline-block;
 }
 
-/* main e common */
+nav ul li:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* main con le section */
 section {
     position: relative;
 }
@@ -90,6 +95,7 @@ section {
     transform: translate(-50%, -50%);
 }
 
+/* links alle sezioni della pagina  */
 #top {}
 
 #first-section {}
