@@ -6,6 +6,10 @@
 }
 
 /* common */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -97,16 +101,7 @@ section {
     transform: translate(-50%, -50%);
 }
 
-/* links alle sezioni della pagina  */
-#top {}
-
-#first-section {}
-
-#second-section {}
-
-#third-section {}
-
-#back-to-top {}
+/* back to top  */
 
 .go-back {
     position: absolute;
