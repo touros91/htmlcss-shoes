@@ -13,13 +13,13 @@
     </head>
     <body>
         <!-- header  -->
-        <header>
+        <header id="top">
             <!-- menu nav  -->
             <nav>
                 <ul>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
+                    <li><a href="#first-section">1</a></li>
+                    <li><a href="#second-section">2</a></li>
+                    <li><a href="#third-section">3</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,16 +27,29 @@
         <!-- corpo principale  -->
         <main>
             <!-- prima sezione  -->
-            <section class="viewport-height red">
+            <section class="viewport-height red" id="first-section">
                 <div class="box centered">
                     <img src="img/01.png" alt="Primo paio di scarpe">
-                    <h1>Il nostro modello di punta</h1>
+                    <h1>Il nostro modello<span class="title"> di punta</span></h1>
                 </div>
             </section>
 
-            <section class="viewport-height green"></section>
+            <section class="viewport-height green" id="second-section">
+                <div class="box centered">
+                    <img src="img/02.png" alt="Primo paio di scarpe">
+                    <h1>Il nostro modello<span class="title"> di punta</span></h1>
+                </div>
+            </section>
 
-            <section class="viewport-height yellow"> </section>
+            <section class="viewport-height yellow" id="third-section"> 
+                <div class="box centered">
+                    <img src="img/03.png" alt="Primo paio di scarpe">
+                    <h1 id="third-h1">Il nostro modello<span class="title"> di punta</span></h1>
+                </div>
+                <div class="go-back">
+                    <a href="#top">Back to top</a>
+                </div>
+            </section>
         </main>
 
     </body>
