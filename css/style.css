@@ -12,8 +12,6 @@ body {
 
 /* header  */
 header {
-    background-color: red;
-    height: 100vh;
     position: relative;
 }
 /* menu nav  */
@@ -38,4 +36,21 @@ li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+/* main  */
+.viewport-height {
+    height: 100vh;
+}
+
+.viewport-height.red {
+    background-color: red;
+}
+
+.viewport-height.green {
+    background-color: green;
+}
+
+.viewport-height.yellow {
+    background-color: yellow;
 }
