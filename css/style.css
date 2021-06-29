@@ -12,7 +12,7 @@ body {
 
 /* header  */
 header {
-    height: 50px;
+    height: 70px;
     background-color: red;
 }
 
@@ -28,14 +28,12 @@ nav ul li {
     margin: 10px;
 }
 
-nav {
-    position: relative;
-}
-
 ul {
     position: absolute;
-    right: 0px;
     top: 0px;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
 }
 
 li a {
@@ -46,7 +44,7 @@ li a {
 }
 
 nav ul li:hover {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* main con le section */
