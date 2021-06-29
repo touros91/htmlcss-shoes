@@ -17,6 +17,10 @@ header {
 }
 
 /* menu nav  */
+nav {
+    position: relative;
+}
+
 nav ul li {
     display: inline-block;
     width: 40px;
